@@ -25,7 +25,7 @@
                 </button><br />
                 <div class="collapse navbar-collapse" id="navbox">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link headerLink" href="#">About</a></li>
+                        <li class="nav-item active"><a class="nav-link shadow-lg headerLink"  href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link headerLink" href="#">Resume</a></li>
                         <li class="nav-item"><a class="nav-link headerLink" href="#">Services</a></li>
                         <li class="nav-item"><a class="nav-link headerLink" href="#">Portfolio</a></li>
@@ -35,41 +35,47 @@
             </nav>
         </div>
     </header>
+    
     <section id="bodySection" class="d-flex align-items-center">
         <div id="bodyContainer" class="container-fluid mt-5  justify-content-center">
-            <div class="row justify-content-center" id="bodyRow1">
+            <!-- About Section -->
+            <div class="row justify-content-center shadow-lg" id="bodyRow1">
                 <div class=" card col-md-5" id="bodyCol2">
                     <img src="../../img/profile/profile3.jpg" id="profileImg" class="card-img-top img-fluid">
                 </div>
                 <div class="card col-md-7" id="bodyCol1">
                     <div class="card-body">
-                        <h1 class="card-title text-center">ABOUT MYSELF</h1><hr/>
+                        <h1 class="card-title text-center" id="aboutTitle">About Myself</h1>
+                        <hr class="w-50 hLine">
+                        <hr class="w-25 hLine">
                         <div class="ml-3">
                             
                                 <h4 class="aboutTxt"><img src="../../img/icons/name.png" class="img img-fluid aboutIcon"> Name: <b>Harsh Dubey</b></h4>
                                 <h4 class="aboutTxt"><img src="../../img/icons/work.png" class="img img-fluid aboutIcon">  Profession: <b>Software & Web Developer</b></h4>
                                 <h4 class="aboutTxt"><img src="../../img/icons/age.png" class="img img-fluid aboutIcon">  Age: <b>23</b></h4>
                                 <h4 class="aboutTxt"><img src="../../img/icons/graduate.png" class="img img-fluid aboutIcon">  Degree: <b>Bachelor of Computer Application</b></h4>
-                                <h4 class="aboutTxt"><img src="../../img/icons/contact.png" class="img img-fluid aboutIcon">  Contact: <b>9004172202</b></h4>
+                                <h4 class="aboutTxt"><img src="../../img/icons/contact.png" class="img img-fluid aboutIcon">  Contact: <b>(+91) 9004172202</b></h4>
                                 <h4 class="aboutTxt"><img src="../../img/icons/location.png" class="img img-fluid aboutIcon">  City: <b>Mumbai,Maharastra</b></h4>
                                 <h4 class="aboutTxt"><img src="../../img/icons/mail.png" class="img img-fluid aboutIcon">  Email: <b>mailforharshdubey@gmail.com</b></h4>
 
                                                                              
                         </div>
-                        <h4 class="card text-center mt-3" id="aboutPara">
+                        <h4 class="card text-center mt-3 shadow-lg" id="aboutPara">
                             Hii, I’m Harsh, skilled and results-oriented Software Developer experienced working in a variety of environments with
                             a breadth of programs and technologies. Also I am good at
 
-                            <div class="col-md-4 d-flex mt-4">
-                                <h6 class="skillButton">C</h6>
-                                <h6 class="skillButton">C++</h6>                                
+                            <div class="d-flex justify-content-center">
+                                <div class="w-50 d-flex mt-4">
+                                    <h6 class="skillButton">C</h6>
+                                    <h6 class="skillButton">C++</h6>                                
+                                </div>                        
+                                <div class="w-50 d-flex mt-4 ml-2">
+                                    <h6 class="skillButton">JAVA</h6>
+                                    <h6 class="skillButton">PHP</h6>
+                                    <h6 class="skillButton">PYTHON</h6>
+                                </div>
                             </div>
-                            <div class="col-md-6 d-flex">
-                                <h6 class="skillButton">JAVA</h6>
-                                <h6 class="skillButton">PHP</h6>
-                                <h6 class="skillButton">PYTHON</h6>
-                            </div>
-                            <div class="d-flex mt-4">
+                            <div class="d-flex mt-4 ml-2">
                                 <h6 class="skillButton">HTML</h6>
                                 <h6 class="skillButton">CSS</h6>
                                 <h6 class="skillButton">BOOTSTRAP</h6>
@@ -82,15 +88,149 @@
                     </div>
                 </div>                
 
+            </div>
+            <!-- End -->
+            <!-- Skills Section -->            
+            <div class="row justify-content-center my-5 shadow-lg" id="bodyRow1">
+                <div class="col-md-12 text-center my-3">
+                    <h1 id="aboutTitle">My Skills</h1>
+                    <hr class="w-75 hLine" />
+                    <hr class="w-25 hLine" />
+                </div>
+                <div class="col-md-6 text-center my-4" id="skillCol1">
+                    <h1 id='aboutTitle'>Technical Skills</h1>
+                    <hr class="w-75 hLine">
+                    <!-- PragressBar-C -->
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-primary ml-2 skillBarTitle">C</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">95%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ></div>
+                    </div>
+                    <!-- PragressBar-C++ -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">C++</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">95%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar" role="progressbar"
+                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- ProgressBar-JAVA -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">JAVA</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">55%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar" role="progressbar"
+                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" id="progressBarJava"></div>
+                    </div>
+                    <!-- ProgressBar-PHP -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">PHP</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">75%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar w-75" role="progressbar"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- ProgressBar-PYTHON -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">PYTHON</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">75%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar w-75" role="progressbar"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- ProgressBar-HTML -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">HTML</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">97%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar" role="progressbar"
+                            aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" id="progressBarHtml"></div>
+                    </div>
+                    <!-- ProgressBar-CSS -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">CSS</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">97%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar " role="progressbar"
+                            aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" id="progressBarHtml"></div>
+                    </div>
+                    <!-- ProgressBar-BOOTSTRAP -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">BOOTSTRAP-4</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">90%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar " role="progressbar"
+                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="progressBarBootstrap"></div>
+                    </div>
+                    <!-- ProgressBar-JAVASCRIPT -->
+                    <div class="d-flex justify-content-between mt-3 ">
+                        <h3 class="text-primary ml-2 skillBarTitle">JAVASCRIPT</h3>
+                        <h3 class="text-primary mr-2 skillBarTitle">90%</h3>
+                    </div>
+                    <div class="progress progressBarBox">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated progressBar " role="progressbar"
+                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="progressBarBootstrap"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center my-4">
+                    <h1 id='aboutTitle'>Professional Skills</h1>
+                    <hr class="w-75 hLine">
+                    <div class="d-flex justify-content-around">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                            <span id="roundedBar" class="text-center">100%</span>
+                            <h1 class=" text-primary mt-4 skillBarTitle">Excellent Team Player</h1>
+                        </div>
+                        
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                            <span id="roundedBar" class="text-center">100%</span>
+                            <h1 class=" text-primary mt-4 skillBarTitle">Easy Learner</h1>
+                        </div>                                                
+                    </div>
 
-
-
-
-
-
+                    <div class="d-flex justify-content-around mt-4">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                            <span id="roundedBar" class="text-center">100%</span>
+                            <h1 class=" text-primary mt-4 skillBarTitle">Quality Delivery</h1>
+                        </div>
+                    
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                            <span id="roundedBar" class="text-center">100%</span>
+                            <h1 class=" text-primary mt-4 skillBarTitle">Time Management</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End -->
+            <!-- Specialty Section -->
+            <div class="row justify-content-center my-5 shadow-lg" id="bodyRow1">
+                <div class="col-md-12 text-center my-3">
+                    <h1 id="aboutTitle">My Specialties</h1>
+                    <hr class="w-75 hLine"/>
+                    <hr class="w-25 hLine"/>
+                </div>
+                <div class="col-md-6 text-center mb-2">
+                    <img src="../../img/webapp.png" class="img img-fluid " id="webAppImg">
+                    <h3 class="text-primary">Web-App Development</h1>
+                        <h6>Experienced in developing web application using React framework.</h6>
+                </div>
+                <div class="col-md-6 text-center mb-2">
+                    <img src="../../img/webdev.png" class="img img-fluid">
+                    <h3 class="text-primary">Website Development</h1>
+                        <h6>Skilled in developing website using PHP.</h6>
+                </div>
             </div>
         </div>
-    </section>
+    </section>    
+    
 <footer id="footer" class="d-flex justify-content-between align-items-center">
     <h2 id="footerTxt">Devloped By HD</h2>
     <div>
