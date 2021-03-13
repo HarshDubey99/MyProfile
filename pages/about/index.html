@@ -10,6 +10,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="../../js/connection.js"></script>
         <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="aboutStyle.css">
@@ -29,8 +31,8 @@
                         <li class="nav-item"><a class="nav-link headerLink" href="../../index.html">Home</a></li>
                         <li class="nav-item active"><a class="nav-link shadow-lg headerLink"  href="#">About</a></li>                        
                         <li class="nav-item"><a class="nav-link headerLink" href="../services/index.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link headerLink" href="#">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link headerLink" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link headerLink" href="../portfolio/index.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link headerLink" href="../contact/index.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -40,11 +42,11 @@
     <section id="bodySection" class="d-flex align-items-center">
         <div id="bodyContainer" class="container-fluid mt-5  justify-content-center">
             <!-- About Section -->
-            <div class="row justify-content-center shadow-lg" id="bodyRow1">
+            <div class="row justify-content-center shadow-lg" id="bodyRow1" data-aos="zoom-out">
                 <div class=" card col-md-5" id="bodyCol2">
                     <img src="../../img/profile/profile3.jpg" id="profileImg" class="card-img-top img-fluid">
                 </div>
-                <div class="card col-md-7" id="bodyCol1">
+                <div class="card col-md-7" id="bodyCol1" data-aos="fade-left">
                     <div class="card-body">
                         <h1 class="card-title text-center" id="cardTitle">About Myself</h1>
                         <hr class="w-50 hLine">
@@ -82,23 +84,20 @@
                                 <h6 class="skillButton">BOOTSTRAP</h6>
                                 <h6 class="skillButton">JAVASCRIPT</h6>
                             </div>
-                        </h4>
-                        
-                       
-                        
+                        </h4>                  
                     </div>
                 </div>                
 
             </div>
             <!-- End -->
             <!-- Skills Section -->            
-            <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1">
+            <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1" data-aos="zoom-out">
                 <div class="col-md-12 text-center my-3">
                     <h1 id="cardTitle">My Skills</h1>
                     <hr class="w-75 hLine" />
                     <hr class="w-25 hLine" />
                 </div>
-                <div class="col-md-6 text-center my-4" id="skillCol1">
+                <div class="col-md-6 text-center my-4" id="skillCol1" data-aos="fade-right" >
                     <h1 id='cardTitle'>Technical Skills</h1>
                     <hr class="w-75 hLine">
                     <!-- PragressBar-C -->
@@ -186,24 +185,24 @@
                     <h1 id='cardTitle'>Professional Skills</h1>
                     <hr class="w-75 hLine">
                     <div class="d-flex justify-content-around">
-                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard" data-aos="flip-left" data-aos-delay="100" >
                             <span id="roundedBar" class="text-center">100%</span>
                             <h1 class=" text-primary mt-4 skillBarTitle">Excellent Team Player</h1>
                         </div>
                         
-                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard" data-aos="flip-left" data-aos-delay="200">
                             <span id="roundedBar" class="text-center">100%</span>
                             <h1 class=" text-primary mt-4 skillBarTitle">Easy Learner</h1>
                         </div>                                                
                     </div>
 
                     <div class="d-flex justify-content-around mt-4">
-                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard" data-aos="flip-left" data-aos-delay="300">
                             <span id="roundedBar" class="text-center">100%</span>
                             <h1 class=" text-primary mt-4 skillBarTitle">Quality Delivery</h1>
                         </div>
                     
-                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard">
+                        <div class="card py-4 px-4 shadow-lg align-items-center roundedBarCard" data-aos="flip-left" data-aos-delay="400">
                             <span id="roundedBar" class="text-center">100%</span>
                             <h1 class=" text-primary mt-4 skillBarTitle">Time Management</h1>
                         </div>
@@ -212,7 +211,7 @@
             </div>
             <!-- End -->   
             <!-- Experience Section  -->
-            <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1">
+            <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1"  data-aos="zoom-out">
                 <div class="col-md-12 my-3 text-center">
                     <h1 id="cardTitle">Experiences</h1>
                     <hr class="w-75 hLine"/>
@@ -220,32 +219,32 @@
                 </div>
                 <div class="col-md-6">
                     <h1 id="cardTitle">⦿Education</h1>
-                    <div class="py-5 expCardBox">
+                    <div class="py-5 expCardBox" data-aos="fade-down" data-aos-delay="100">
                         <div class="card shadow-lg text-center py-3" id="expCard">
                             Bachelor of Computer Application (BCA)<br />
                             <b> ► From AIIT (Atharva Institute Of Information Technology), Mumbai</b>
                         </div>
                     </div>
-                    <div class="py-5 expCardBox">
+                    <div class="py-5 expCardBox" data-aos="fade-down" data-aos-delay="200">
                         <div class="card shadow-lg text-center py-3" id="expCard">
                             Web & Software Engineering Diploma (SAIP)<br />
                             <b> ► From St.Angelo's Professional Education, Mumbai</b>
                         </div>
                     </div>
-                    <div class="py-5 expCardBox">
+                    <div class="py-5 expCardBox" data-aos="fade-down" data-aos-delay="300">
                         <div class="card shadow-lg text-center py-3" id="expCard">
                             Higher Secondary Certificate (Class XII) By Science Stream<br />
                             <b> ► From N.L College Of Science, Mumbai</b>
                         </div>
                     </div>
-                    <div class="py-5" id="sscCardBox">
+                    <div class="py-5" id="sscCardBox" data-aos="fade-down" data-aos-delay="400">
                         <div class="card shadow-lg text-center py-3" id="expCard">
                         Secondary School Certificate (Class X)<br/>
                         <b> ► From N.L High School, Mumbai</b>
                         </div>
                     </div>                                                            
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
                     <h1 id="cardTitle" class="text-right">Work Experience⦿</h1>
                     <div class="py-5" id="workExpCardBox">
                         <div class="card shadow-lg text-center py-3" id="expCard">
@@ -284,5 +283,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script>AOS.init();</script>
 </body>
 </html>

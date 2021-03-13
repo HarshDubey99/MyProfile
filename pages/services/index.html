@@ -10,6 +10,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../../js/connection.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="serviceStyle.css">
@@ -30,8 +32,8 @@
                     <li class="nav-item"><a class="nav-link headerLink" href="../../index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link  headerLink" href="../about/index.html">About</a></li>                    
                     <li class="nav-item active"><a class="nav-link shadow-lg headerLink" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link headerLink" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link headerLink" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link headerLink" href="../portfolio/index.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link headerLink" href="../contact/index.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,7 +43,7 @@
 <section id="bodySection" class="d-flex align-items-center">
     <div id="bodyContainer" class="container-fluid mt-2  justify-content-center">
         <!-- Specialty Section -->
-        <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1">
+        <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1"  data-aos="zoom-out">
             <div class="col-md-12 text-center my-3">
                 <h1 id="cardTitle">My Specialties</h1>
                 <hr class="w-75 hLine" />
@@ -84,5 +86,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script>AOS.init();</script>
 </body>
 </html>

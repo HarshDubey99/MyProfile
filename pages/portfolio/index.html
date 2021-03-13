@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSH-DUBEY/PORTFOLIO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../../js/connection.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="portfolioStyle.css">
+</head>
+
+<body onload="ConnectionCheck()">
+
+    <!-- Header Section -->
+    <header class="fixed-top">
+        <div class="container-fluid d-flex justify-content-between" id="headerContainer">
+            <h1><a href="../../index.html" id="headerBrand">Harsh</a></h1>
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" id="menuButton" type="button" data-toggle="collapse"
+                    data-target="#navbox" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button><br />
+                <div class="collapse navbar-collapse" id="navbox">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link headerLink" href="../../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link  headerLink" href="../about/index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link headerLink" href="#">Services</a></li>
+                        <li class="nav-item active"><a class="nav-link headerLink shadow-lg " href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link headerLink" href="../contact/index.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End -->
+    <section id="bodySection" class="d-flex align-items-center">
+        <div id="bodyContainer" class="container-fluid mt-2  justify-content-center">
+            <!-- Specialty Section -->
+            <div class="row justify-content-center mt-5 shadow-lg" id="bodyRow1" data-aos="zoom-out">
+                <div class="col-md-12 text-center my-3">
+                    <h1 id="cardTitle">My Portfolio</h1>
+                    <hr class="w-75 hLine" />
+                    <hr class="w-25 hLine" />
+                </div>
+                <div class="col-md-6 shadow-lg h-100 text-center mb-2 pb-3 web">
+                    <img src="../../img/portfolio/PortfolioWebsite.png" class="img img-fluid " id="webImg">
+                    <h3 class="text-primary mt-3">Portfolio Website</h1>
+                    <h5>This is simple portfolio website made with HTML+CSS+BOOTSTRAP</h5>
+                    <button class="btn btn-outline-primary mt-2" id="portWebDemoBtn" onclick="demoButtonHandler()">DEMO</button>
+                    <button class="btn btn-outline-warning mt-2" id="portGithubBtn" onclick="githubButtonHandler()">CODE</button>
+                </div>
+                <div class="col-md-6 text-center mb-2">
+                    <img src="../../img/webdev.png" class="img img-fluid">
+                    <h3 class="text-primary">Website Development</h1>
+                        <h6>Skilled in developing website using PHP.</h6>
+                </div>
+            </div>
+            <!-- End -->
+        </div>
+    </section>
+    <!-- Footer Section  -->
+    <footer id="footer" class="d-flex justify-content-between align-items-center">
+        <h2 id="footerTxt">Devloped By HD</h2>
+        <div>
+            <a href="#"><img src="../../img/instagram.png" id="socialImg"></a>
+            <a href="#"><img src="../../img/facebook.png" id="socialImg"></a>
+            <a href="#"><img src="../../img/linkedin.png" id="socialImg"></a>
+            <a href="#"><img src="../../img/telegram.png" id="socialImg"></a>
+        </div>
+
+    </footer>
+    <!-- End -->
+
+    <!-- DON'T DELETE FOLLOWING FILES -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>AOS.init();</script>
+    <script>
+        function demoButtonHandler(){
+            // var element = document.getElementById("portWebDemoBtn");
+            window.open("file:///H:/MyPortfolio/index.html","_blank");
+        }
+        function githubButtonHandler(){
+            window.open("https://github.com/HarshDubey99/MyPortfolio.git","_blank");
+        }
+    </script>
+</body>
+
+</html>
