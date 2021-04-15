@@ -1,0 +1,38 @@
+<!-- Include Header -->
+<%- include('includes/_header') -%>
+<!-- /Include Header -->
+   <section id="bodySection" class="d-flex align-items-center">
+        <div id="PortfolioBodyContainer" class="container-fluid mt-2  justify-content-center">
+            <!-- Specialty Section -->
+            <div class="row justify-content-around mt-5 shadow-lg" id="PortfolioBodyRow1" data-aos="zoom-out">
+                <div class="col-md-12 text-center my-3">
+                    <h1 id="PortfolioCardTitle">My Portfolio</h1>
+                    <hr class="w-75 hLine" />
+                    <hr class="w-25 hLine" />
+                    <div class="d-flex justify-content-center py-4">
+                        <button class="btn btn-outline-primary mr-2  " id="allbtn" onclick="location.reload()">All</button>
+                        <button class="btn btn-outline-primary mr-2" id="appbtn" onclick="getApp()">App</button>
+                        <button class="btn btn-outline-primary mr-2" id="webbtn" onclick="getWeb()">Web</button>
+                    </div>
+                </div>
+                <div class="col-md-5 shadow-lg h-100 text-center mb-4 pb-3 web">
+                    <img src="../../img/portfolio/PortfolioWebsite.png" class="img img-fluid " id="webImg">
+                    <h3 class="text-primary mt-3">Portfolio Website</h1>
+                    <h5>This is simple portfolio website made with HTML+CSS+BOOTSTRAP</h5>
+                    <a class="btn btn-outline-primary mt-2" id="portWebDemoBtn" href="https://harshdubey99.github.io/MyPortfolio/">DEMO</a>
+                    <a class="btn btn-outline-warning mt-2" id="portGithubBtn" href="https://github.com/HarshDubey99/MyPortfolio">CODE</a>
+                </div>
+                <div class="col-md-5 shadow-lg h-100 text-center mb-4 pb-3 app">
+                    <img src="../../img/portfolio/CalculatorApp.png" class="img img-fluid " id="webImg">
+                    <h3 class="text-primary mt-3">Calculator App</h1>
+                        <h5>This is simple calculator application made with HTML+CSS+BOOTSTRAP+JS</h5>
+                        <a class="btn btn-outline-primary mt-2" id="portWebDemoBtn" href="https://harshdubey99.github.io/SimpleCalculatorApp/">DEMO</a>
+                        <a class="btn btn-outline-warning mt-2" id="portGithubBtn" href="https://github.com/HarshDubey99/SimpleCalculatorApp">CODE</a>
+                </div>
+            </div>
+            <!-- End -->
+        </div>
+    </section>
+<!-- Include Footer -->
+<%- include('includes/_footer') -%>
+<!-- /Include Footer -->

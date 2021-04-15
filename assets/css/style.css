@@ -1,0 +1,372 @@
+/* Header Section */
+#headerContainer {
+  background-color: lightseagreen;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+#headerBrand {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 0px 1px 5px black;
+}
+.headerLink {
+  font-size: 19px;
+  font-weight: 600;
+}
+.headerLink:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+#menuButton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+#navbox {
+  text-align: center;
+  overflow: hidden;
+}
+#navbar {
+  position: absolute;
+  right: 0px;
+  justify-content: center;
+  background-color: lightseagreen;
+  border-bottom-left-radius: 30px;
+}
+/* End */
+
+
+/* Home Page */
+
+#HomeBodySection {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#HomeBodyContainer {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+}
+#HomeHeadingTxt {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#HomeParaFocusTxt {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: royalblue;
+  letter-spacing: 2px;
+}
+#HomeAboutButton {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 400;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+#HomeAboutButton:hover {
+  background-color: lightseagreen;
+  color: black;
+}
+
+/* End */
+
+/* About Page */
+#AboutBodyContainer {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: gray;
+  padding: 40px;
+}
+#AboutBodyRow1 {
+  height: 100%;
+  background-color: #fff;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 4px;
+}
+.skillButton {
+  width: 140px;
+  padding: 10px;
+  margin-right: auto;
+  border-radius: 8px;
+  font-weight: 800;
+  background-color: lightseagreen;
+  color: black;
+  letter-spacing: 2px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+#AboutBodyCol2 {
+  overflow: hidden;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#AboutProfileImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+#AboutCardTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-shadow: 0px 1px 5px black;
+  letter-spacing: 2px;
+}
+.hLine {
+  height: 3px;
+  background-color: gray;
+}
+.aboutIcon {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background-color: lightseagreen;
+}
+.aboutTxt {
+  font-size: 21px;
+  color: black;
+  line-height: 47px;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+#aboutPara {
+  padding: 17px;
+  font-size: 23px;
+  letter-spacing: 2px;
+  overflow: auto;
+  border: none;
+  line-height: 35px;
+}
+/* end */
+/* Skill Section */
+.AboutSkillBarTitle {
+  font-size: 20px;
+}
+.AboutProgressBarBox {
+  height: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.progressBar {
+  width: 95%;
+  border-radius: 50px;
+  background-color: lightseagreen;
+}
+#progressBarJava {
+  width: 55%;
+}
+#progressBarHtml {
+  width: 97%;
+}
+#progressBarBootstrap {
+  width: 90%;
+}
+.roundedBarCard {
+  width: 250px;
+  border: none;
+}
+#roundedBar {
+  height: 150px;
+  width: 150px;
+  border: 5px solid lightseagreen;
+  border-radius: 100%;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3),
+    0px 8px 16px 0px rgba(0, 0, 0, 0.3) inset;
+  color: lightseagreen;
+}
+/* Experience section */
+.expCardBox {
+  border-left: 5px solid rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-left: 15px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  font-size: 28px;
+}
+
+#expCard {
+  border: none;
+  background-color: #fff;
+}
+#sscCardBox {
+  border: 5px solid rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-left: 15px;
+  border-right: none;
+  border-top: none;
+  font-size: 28px;
+}
+#workExpCardBox {
+  border: 5px solid rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-right: 15px;
+  border-left: none;
+  border-top: none;
+  font-size: 28px;
+}
+/* End */
+
+/* Services Section */
+#ServicesBodyContainer {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: gray;
+  padding: 40px;
+}
+#ServicesBodyRow1 {
+  height: 100%;
+  background-color: #fff;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 4px;
+}
+#ServicesCardTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-shadow: 0px 1px 5px black;
+  letter-spacing: 2px;
+}
+
+/* End */
+
+
+/* Service Section */
+#PortfolioBodyContainer {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: gray;
+  padding: 40px;
+}
+#PortfolioBodyRow1 {
+  height: 100%;
+  background-color: #fff;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 4px;
+}
+#PortfolioCardTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-shadow: 0px 1px 5px black;
+  letter-spacing: 2px;
+}
+
+.web {
+  border-radius: 8px;
+}
+#webImg {
+  width: 100%;
+}
+/* End */ 
+
+/* Contact Section */
+#ContactBodyContainer {
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: gray;
+  padding: 40px;
+}
+#ContactBodyRow1 {
+  height: 100%;
+  background-color: #fff;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 4px;
+}
+#ContactCardTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-shadow: 0px 1px 5px black;
+  letter-spacing: 2px;
+}
+.hLine {
+  height: 3px;
+  background-color: gray;
+}
+#googleMap {
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+.contactIconCard {
+  border: none;
+  overflow: auto;
+}
+.contactIcons {
+  height: 94px;
+  width: 94px;
+  padding: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3),
+    0px 8px 16px 0px rgba(0, 0, 0, 0.3) inset;
+  border: 2px solid lightseagreen;
+}
+.inpForm {
+  border: 1px solid lightseagreen;
+}
+.labelForm {
+  font-size: 19px;
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+/* End */
+
+
+/* Footer Section */
+#footer {
+  background-color: lightseagreen;
+  padding: 10px;
+}
+#footerTxt {
+  font-size: 20px;
+  color: black;
+}
+#socialImg {
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  margin-right: 4px;
+}
+#socialImg:hover {
+  background-color: white;
+}
+/* End */
